@@ -17,6 +17,7 @@ The prompt tells an AI coding agent to inspect the machine, back up anything it 
 - **Clear boundaries.** No employer data, credentials, or private operational material is imported or stored.
 - **Honest limits.** The unlock is a local, expiring software lease and is documented as lower assurance than a hardware key. If the vault cannot be encrypted without outside dependencies, the prompt requires saying so instead of claiming encryption.
 - **Safe by default.** No untrusted downloads, backups before any change, and approval required for any outside dependency.
+- **Live data only.** Reports must use live, verifiable data with the source and retrieval time named. The assistant may not substitute cached or remembered values. This rule came from a real failure, where an agent reused cached memory in a multi-week report.
 - **Verification over claims.** The agent must run the checks and report real results before declaring success.
 
 ## How to use it
@@ -33,4 +34,3 @@ This is a specification, not a software package. Results depend on the agent and
 ## Author
 
 Greg Hjertager | [linkedin.com/in/ghjertager](https://www.linkedin.com/in/ghjertager)
-
