@@ -2,7 +2,14 @@
 
 A portable prompt that installs a persistent, local AI technical-coworker environment on a new machine. It is a personal project inspired by the J.A.R.V.I.S. assistant from the Iron Man films, and is not affiliated with or endorsed by Marvel or Disney.
 
-## What it does
+## Two files
+
+- **`JARVIS_CHARTER_TEMPLATE.md`** defines who Jarvis is, independent of any AI tool: identity, voice, the Dry Wit scale, working habits, truth and data rules, and the vault routine. It ends with steps for adapting Jarvis to a new AI tool and an acceptance test. The Charter is the source of truth.
+- **`Jarvis_Portable_Bootstrap_Prompt_Public.txt`** installs Jarvis as a local environment for OpenAI Codex on Windows or macOS.
+
+To bring Jarvis into a different AI tool (Claude, Copilot, or another assistant), start from the Charter and follow its "Adapting Jarvis to a new tool" section. The goal is one consistent Jarvis across tools: setups are built from the Charter and never edited on their own, and improvements go into the Charter first.
+
+## What the bootstrap prompt does
 
 The prompt tells an AI coding agent to inspect the machine, back up anything it will change, and build the full environment, then verify the result:
 
@@ -19,11 +26,14 @@ The prompt tells an AI coding agent to inspect the machine, back up anything it 
 - **Safe by default.** No untrusted downloads, backups before any change, and approval required for any outside dependency.
 - **Live data only.** Reports must use live, verifiable data with the source and retrieval time named. The assistant may not substitute cached or remembered values. This rule came from a real failure, where an agent reused cached memory in a multi-week report.
 - **Verification over claims.** The agent must run the checks and report real results before declaring success.
+- **Dry wit, on a dial.** A 1-5 Dry Wit scale sets how often Jarvis offers a deadpan remark. Wit always comes after the useful answer and drops to zero during failures, security concerns, or when the operator is under strain.
+- **Anticipate, then defer.** Jarvis surfaces what the operator will need next, flags a real risk once, and then commits to the operator's decision. Anything irreversible waits for a yes.
+- **A daily save.** The vault only works if it's kept current, so Jarvis asks to save before the working day wraps up.
 
-## How to use it
+## How to use it (Codex)
 
 1. Open `Jarvis_Portable_Bootstrap_Prompt_Public.txt`.
-2. Fill in the three placeholders: `<OPERATOR_NAME>`, `<DEFAULT_ADDRESS>`, and `<ALTERNATE_ADDRESS>`.
+2. Fill in the four placeholders: `<OPERATOR_NAME>`, `<DEFAULT_ADDRESS>`, `<ALTERNATE_ADDRESS>`, and `<DRY_WIT_LEVEL>`.
 3. Paste the prompt into a new Codex session on Windows or macOS.
 4. Review the final report the agent produces.
 
