@@ -51,7 +51,9 @@ You need two things: a computer, and an account with an AI you like to use (Chat
 
 **12.** He asks for a **first name** to call you sometimes. Type it. Press **Enter**.
 
-**13.** He asks **how funny** to be, from 1 to 5. Type **3**. Press **Enter**.
+**13.** He asks for his **Dry Wit level**, from 1 to 5. Type **3**. Press **Enter**.
+
+> Dry Wit is his calm, deadpan humor. 1 is none at all. 5 is a dry remark in most answers.
 
 ---
 

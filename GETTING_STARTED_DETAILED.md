@@ -52,7 +52,7 @@ Jarvis says hello and asks you four things, one at a time. Type your answer and 
 
 **Step 14.** He asks for a **first name** he can use sometimes. Type it (usually just your first name).
 
-**Step 15.** He asks **how funny** he should be, from 1 to 5. 1 is serious. 5 is a joke in almost every answer. If you're not sure, type **3**.
+**Step 15.** He asks for his **Dry Wit level**, from 1 to 5. Dry Wit is his calm, deadpan humor: 1 is none at all, 5 is a dry remark in most answers. If you're not sure, type **3**.
 
 ---
 
@@ -97,7 +97,7 @@ Done! Jarvis is yours.
 
 - Always chat **inside the Jarvis Project**.
 - Before you finish, type **Save to the vault**. Jarvis gives you a new **JARVIS_VAULT.md**. Download it, then in the Project, remove the old one and add the new one. That's how he remembers today next time.
-- To make him less funny or more funny, type **Dry wit to 2** (any number from 1 to 5).
+- To change his Dry Wit level, type **Dry wit to 2** (any number from 1 to 5).
 - To change what he calls you, type **Call me ma'am** or **Call me sir**.
 
 ---
