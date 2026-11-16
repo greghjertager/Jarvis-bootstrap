@@ -1,6 +1,8 @@
 # Start here
 
 ## For people
+New to this? **[GETTING_STARTED.md](GETTING_STARTED.md)** walks you through every click.
+
 The easiest way to get your own Jarvis:
 
 1. Download this repository as a ZIP (on GitHub: green **Code** button, then **Download ZIP**).
