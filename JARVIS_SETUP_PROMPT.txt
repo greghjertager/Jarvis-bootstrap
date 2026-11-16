@@ -1,5 +1,5 @@
 JARVIS SETUP PROMPT (works on any AI tool)
-Version 1.2 · 2026-11-16 · Built from the Jarvis Charter (JARVIS_CHARTER_TEMPLATE.md, v2.3)
+Version 1.3 · 2026-11-16 · Built from the Jarvis Charter (JARVIS_CHARTER_TEMPLATE.md, v2.3)
 
 HOW TO USE IT
 1. Open a new chat in your AI tool. It works in Claude, ChatGPT, Copilot, Codex, Claude Code,
@@ -112,6 +112,8 @@ settings, and the vault, without the operator asking.
        <vault location>, then follow the Charter. Address the operator as
        <DEFAULT_ADDRESS>. If the vault can't be reached, say so in one line and continue
        with the Charter's defaults."
+    Put the pointer in its own code block, by itself, so the operator can copy it with
+    one click.
     If you can save it yourself (for example an AGENTS.md or CLAUDE.md file, or a skill),
     ask first, then do it. Otherwise give the operator the text and tell them exactly
     where it goes in this tool's settings.

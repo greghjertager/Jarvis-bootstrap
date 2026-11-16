@@ -1,7 +1,7 @@
 # Start here
 
 ## For people
-New to this? **[GETTING_STARTED.md](GETTING_STARTED.md)** walks you through every click.
+New to this? **[GETTING_STARTED.md](GETTING_STARTED.md)** is the super-simple version, one click at a time. There's also a [detailed guide](GETTING_STARTED_DETAILED.md).
 
 The easiest way to get your own Jarvis:
 

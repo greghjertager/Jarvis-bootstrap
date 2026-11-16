@@ -4,7 +4,7 @@ A portable prompt that installs a persistent, local AI technical-coworker enviro
 
 ## What's here
 
-- **`GETTING_STARTED.md`** is a click-by-click guide for people who don't usually install things.
+- **`GETTING_STARTED.md`** is the super-simple, click-by-click guide for people who have never used GitHub or installed anything with an AI. **`GETTING_STARTED_DETAILED.md`** has more explanation and the fixes.
 - **`START_HERE.md`** tells a person (and their AI) how to install Jarvis from the ZIP in one step.
 - **`JARVIS_SETUP_PROMPT.txt`** is the setup itself. Paste it, with the Charter, into Claude, ChatGPT, Copilot, Codex, or another AI tool, and it sets Jarvis up there: it checks what the tool can actually do, asks sir or ma'am, builds the vault (or a copy-and-paste version if the tool can't write files), makes Jarvis load in every new chat, and reports honestly what it couldn't set up.
 - **`JARVIS_CHARTER_TEMPLATE.md`** (v2.3) is the full rulebook for who Jarvis is, independent of any AI tool: purpose, identity, the Butler voice, the Dry Wit scale, working habits (briefing, standing watch, situational awareness, guardian, dossier, judgment log, weekly report, arguing against his own calls), truth and data rules, the vault routine, a self-check, and a phrasebook. It ends with steps for adapting Jarvis to a new AI tool and an acceptance test. The Charter is the source of truth.
