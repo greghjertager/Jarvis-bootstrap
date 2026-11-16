@@ -2,7 +2,7 @@
 
 **Super simple. Just do each step, in order.**
 
-You need two things: a computer, and an account with an AI you like to use (ChatGPT, Claude, Copilot, Gemini, or another).
+You need two things: a computer, and an account with an AI you like to use (ChatGPT, Claude, Gemini, Copilot, Grok, or another).
 
 ---
 
@@ -28,6 +28,7 @@ You need two things: a computer, and an account with an AI you like to use (Chat
 - Claude: **[claude.ai](https://claude.ai)**
 - Copilot: **[copilot.microsoft.com](https://copilot.microsoft.com)**
 - Gemini: **[gemini.google.com](https://gemini.google.com)**
+- Grok: **[grok.com](https://grok.com)**
 
 **5.** Click the **+** (or the paperclip) next to the box where you type.
 
@@ -75,6 +76,7 @@ You need two things: a computer, and an account with an AI you like to use (Chat
 | Claude | **Projects** | **New project** |
 | Gemini | **Gems** (or **Skills**) | **New Gem** (or **New skill**) |
 | Copilot | **Notebooks** | **New notebook** |
+| Grok | **Projects** | **New project** |
 
 > It's usually on the left side of the screen. If you can't find it, see **Stuck?** below.
 

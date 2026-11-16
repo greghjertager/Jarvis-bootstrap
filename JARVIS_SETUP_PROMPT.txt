@@ -2,7 +2,7 @@ JARVIS SETUP PROMPT (works on any AI tool)
 Version 1.4 · 2026-11-16 · Built from the Jarvis Charter (JARVIS_CHARTER_TEMPLATE.md, v2.3)
 
 HOW TO USE IT
-1. Open a new chat in your AI tool. It works in Claude, ChatGPT, Copilot, Codex, Claude Code,
+1. Open a new chat in your AI tool. It works in ChatGPT, Claude, Gemini, Copilot, Grok, Codex, Claude Code,
    or any assistant that accepts instructions. Tools that can read and write files on your
    computer get the full setup; tools that can't get a version that works with copy and paste.
 2. Fill in the four lines below, or leave any of them blank and Jarvis will ask you.
@@ -71,8 +71,8 @@ ZIP was unpacked) rather than on the operator's own computer:
   a downloadable file, give JARVIS_VAULT.md as text in its own code block and tell them to
   paste it into Notepad (Windows) or TextEdit (Mac) and save it as JARVIS_VAULT.md.
   Tell them the simplest way to keep Jarvis: give him a home in this tool, using this
-  tool's own name for it (a Project in ChatGPT or Claude, a Gem or skill in Gemini, a
-  Notebook in Copilot), named "Jarvis"; add JARVIS_VAULT.md to it; and paste the pointer
+  tool's own name for it (a Project in ChatGPT, Claude or Grok, a Gem or skill in
+  Gemini, a Notebook in Copilot), named "Jarvis"; add JARVIS_VAULT.md to it; and paste the pointer
   from step 4 into its instructions. In the pointer, the vault location is "the
   JARVIS_VAULT.md file in this Project" (or Gem, skill, or Notebook). When they later say "Save
   to the vault", give them an updated JARVIS_VAULT.md to swap in.
