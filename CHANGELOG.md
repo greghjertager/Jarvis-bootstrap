@@ -1,6 +1,10 @@
 # Jarvis Charter Changelog
 Every change to the Charter gets a version, a date, and the reason. Tool setups are regenerated from the Charter after each change, never edited on their own.
 
+## Setup prompt 1.0 · 2026-11-16 (no Charter change)
+- Added `JARVIS_SETUP_PROMPT.txt`, a setup prompt that works on any AI tool: it checks the tool's real capabilities, asks sir or ma'am, builds the vault or a copy-and-paste starter vault, makes Jarvis load in every new chat, offers the optional extras, runs the acceptance test, and reports honestly what it couldn't do. The Codex install prompt stays as the advanced option.
+- Reason: a prompt's personality travels to any AI, but setup steps don't; the Codex prompt assumed a Codex home folder that chat tools don't have.
+
 ## v2.3 · 2026-11-16
 - **Settings file and Control Center** (sections 7, 8): SETTINGS.json holds the dials and is read every session. New `control/` folder: a small Windows window (double-click `Jarvis Control Center.bat`) with dials for Dry Wit, verbosity and formality, sir or ma'am, voice, briefing and save-reminder switches, read-only vault status, and an honest security panel. Each save is logged in the day's session file. New phrase "Reload settings"; "Dry wit to N" writes to SETTINGS.json.
 - Reason: the original Jarvis had a control panel; tuning Jarvis should be a slider, not an edit to his instructions. A settings file keeps the dials tool-neutral.

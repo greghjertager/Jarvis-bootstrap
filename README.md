@@ -4,9 +4,10 @@ A portable prompt that installs a persistent, local AI technical-coworker enviro
 
 ## What's here
 
+- **`JARVIS_SETUP_PROMPT.txt`** is the place to start. Paste it, with the Charter, into Claude, ChatGPT, Copilot, Codex, or another AI tool, and it sets Jarvis up there: it checks what the tool can actually do, asks sir or ma'am, builds the vault (or a copy-and-paste version if the tool can't write files), makes Jarvis load in every new chat, and reports honestly what it couldn't set up.
 - **`JARVIS_CHARTER_TEMPLATE.md`** (v2.3) is the full rulebook for who Jarvis is, independent of any AI tool: purpose, identity, the Butler voice, the Dry Wit scale, working habits (briefing, standing watch, situational awareness, guardian, dossier, judgment log, weekly report, arguing against his own calls), truth and data rules, the vault routine, a self-check, and a phrasebook. It ends with steps for adapting Jarvis to a new AI tool and an acceptance test. The Charter is the source of truth.
 - **`CHANGELOG.md`** records every Charter version, with the date and the reason for the change.
-- **`Jarvis_Portable_Bootstrap_Prompt_Public.txt`** installs Jarvis as a local environment for OpenAI Codex on Windows or macOS.
+- **`Jarvis_Portable_Bootstrap_Prompt_Public.txt`** is the advanced option for OpenAI Codex on Windows or macOS: a full local install with a command-line control script and launchers.
 - **`evals/`** is a fixed set of eight tests, a rubric, and a score sheet, re-run after every model change, Charter version, or new tool, so improvement (or drift) is measured rather than assumed.
 - **`control/`** (optional, Windows) is the Jarvis Control Center: a small window for dialing Jarvis up or down (Dry Wit, verbosity, formality, sir or ma'am, voice, briefing, save reminder), with read-only vault status and an honest security panel. It edits `SETTINGS.json`, which Jarvis reads at the start of every session. Copy `control/` into your vault and `control/SETTINGS.json` to the vault's top level, then double-click `Jarvis Control Center.bat`.
 - **`voice/`** (optional) lets Jarvis answer out loud on Windows using the text-to-speech voices built into Windows. See `voice/README.md`.
@@ -35,9 +36,9 @@ What else it taught me:
 3. **"It seems smarter" isn't evidence.** Jarvis keeps a judgment log: each real call he makes, his reasoning, the case against it, and how confident he was, scored later against what actually happened. Two of his first three scored calls were wrong. That's the point. The `evals/` folder adds a fixed test set to re-run after every change.
 4. **"Someone should review it" isn't a plan.** Decide exactly what a person checks, and against what. Mine: anything going to leadership gets checked against its source, not just a preview. Where I can, I build the check in: a milestone that was already complete can't quietly flip back to incomplete.
 
-## What the bootstrap prompt does
+## What the Codex install prompt does
 
-The prompt tells an AI coding agent to inspect the machine, back up anything it will change, and build the full environment, then verify the result:
+The Codex prompt tells an AI coding agent to inspect the machine, back up anything it will change, and build the full environment, then verify the result:
 
 - **Identity layer:** a behavioral contract, voice model, posture checks, and an original phrasebook, so the assistant keeps a consistent personality instead of drifting into a generic helper.
 - **Memory vault:** local memory that only saves what the user approves, with sensitivity labels, recall, delete, and clean-export controls. It never saves secrets automatically and never saves whole conversations unless asked.
@@ -58,8 +59,17 @@ The prompt tells an AI coding agent to inspect the machine, back up anything it 
 - **Learning on the record.** The model doesn't change between sessions; what grows is what Jarvis reads back. Lessons are written down, checkable calls are logged with a confidence and scored against what actually happened, and a fixed eval set shows whether he's getting better.
 - **Licensed voices only.** Spoken replies use voices licensed for the purpose, such as the ones built into the operating system. Jarvis never clones or imitates a real person's voice, including an actor's.
 
-## How to use it (Codex)
+## How to use it
 
+**Any AI tool (start here):**
+1. Open `JARVIS_SETUP_PROMPT.txt` and fill in its four lines, or leave them blank and Jarvis will ask.
+2. Start a new chat in your AI tool. Paste the setup prompt, then the full text of `JARVIS_CHARTER_TEMPLATE.md` (or attach it).
+3. Answer Jarvis's questions. He finishes with a report of what was set up and anything you need to do yourself.
+4. Optional: run the eight tests in `evals/` in a fresh chat to check that Jarvis is really Jarvis.
+
+A note on tools: the personality works anywhere, but setup depends on what the tool can do. A tool that can read and write files on your computer (for example Claude with a linked folder, Claude Code, or Codex) gets the full vault. A chat-only tool gets a version you keep by copy and paste. The setup prompt tells you which you have.
+
+**Codex, full local install (advanced):**
 1. Open `Jarvis_Portable_Bootstrap_Prompt_Public.txt`.
 2. Fill in the four placeholders: `<OPERATOR_NAME>`, `<DEFAULT_ADDRESS>` ("sir" or "ma'am", your choice), `<ALTERNATE_ADDRESS>` (usually your first name), and `<DRY_WIT_LEVEL>`. If you leave the form of address blank, Jarvis asks you which you prefer at the first session.
 3. Paste the prompt into a new Codex session on Windows or macOS.
