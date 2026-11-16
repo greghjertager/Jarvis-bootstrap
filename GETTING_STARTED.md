@@ -2,7 +2,7 @@
 
 **Super simple. Just do each step, in order.**
 
-You need two things: a computer, and a ChatGPT account (Claude works too).
+You need two things: a computer, and an account with an AI you like to use (ChatGPT, Claude, Copilot, Gemini, or another).
 
 ---
 
@@ -20,9 +20,14 @@ You need two things: a computer, and a ChatGPT account (Claude works too).
 
 ---
 
-### Give Jarvis to ChatGPT
+### Give Jarvis to your AI
 
-**4.** Go to **[chatgpt.com](https://chatgpt.com)** and log in.
+**4.** Go to your AI's website and log in. For example:
+
+- ChatGPT: **[chatgpt.com](https://chatgpt.com)**
+- Claude: **[claude.ai](https://claude.ai)**
+- Copilot: **[copilot.microsoft.com](https://copilot.microsoft.com)**
+- Gemini: **[gemini.google.com](https://gemini.google.com)**
 
 **5.** Click the **+** (or the paperclip) next to the box where you type.
 
@@ -58,7 +63,7 @@ You need two things: a computer, and a ChatGPT account (Claude works too).
 
 **15.** Jarvis gives you a short message in a box. Click the **copy** button on that box.
 
-**16.** On the left side of ChatGPT, click **Projects**, then **New project**.
+**16.** On the left side of your AI's screen, click **Projects**, then **New project**.
 
 **17.** Name it **Jarvis**. Click **Create**.
 
