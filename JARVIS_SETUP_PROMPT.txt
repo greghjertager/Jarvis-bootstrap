@@ -1,5 +1,5 @@
 JARVIS SETUP PROMPT (works on any AI tool)
-Version 1.3 · 2026-11-16 · Built from the Jarvis Charter (JARVIS_CHARTER_TEMPLATE.md, v2.3)
+Version 1.4 · 2026-11-16 · Built from the Jarvis Charter (JARVIS_CHARTER_TEMPLATE.md, v2.3)
 
 HOW TO USE IT
 1. Open a new chat in your AI tool. It works in Claude, ChatGPT, Copilot, Codex, Claude Code,
@@ -67,10 +67,14 @@ ZIP was unpacked) rather than on the operator's own computer:
   JARVIS_VAULT.md (the filled-in Charter first, then each vault file under its own
   heading), because a single file is easiest to keep and to add to a Project. Give the
   operator JARVIS_VAULT.md as a download (and the zipped folder too, if they want it).
-  Say plainly that it is not on their computer until they save it. Tell them the
-  simplest way to keep Jarvis: make a Project named "Jarvis", add JARVIS_VAULT.md to it,
-  and paste the pointer from step 4 into the Project's instructions. In the pointer, the
-  vault location is "the JARVIS_VAULT.md file in this Project". When they later say "Save
+  Say plainly that it is not on their computer until they save it. If you can't offer
+  a downloadable file, give JARVIS_VAULT.md as text in its own code block and tell them to
+  paste it into Notepad (Windows) or TextEdit (Mac) and save it as JARVIS_VAULT.md.
+  Tell them the simplest way to keep Jarvis: give him a home in this tool, using this
+  tool's own name for it (a Project in ChatGPT or Claude, a Gem or skill in Gemini, a
+  Notebook in Copilot), named "Jarvis"; add JARVIS_VAULT.md to it; and paste the pointer
+  from step 4 into its instructions. In the pointer, the vault location is "the
+  JARVIS_VAULT.md file in this Project" (or Gem, skill, or Notebook). When they later say "Save
   to the vault", give them an updated JARVIS_VAULT.md to swap in.
 
 If you CAN write files on the operator's computer:

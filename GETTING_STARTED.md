@@ -62,22 +62,33 @@ You need two things: a computer, and an account with an AI you like to use (Chat
 **14.** Jarvis gives you a file called **JARVIS_VAULT.md**. Click it to download it.
 
 > This file is Jarvis's memory. Don't delete it.
+>
+> If your AI can't give you a file, Jarvis gives you his memory as text in a box instead. Click the box's **copy** button, open **Notepad** (Windows) or **TextEdit** (Mac), paste, and save it in your **Downloads** folder as **JARVIS_VAULT.md**.
 
-**15.** Jarvis gives you a short message in a box. Click the **copy** button on that box.
+**15.** Jarvis also gives you a short message in a box. Click the **copy** button on that box.
 
-**16.** On the left side of your AI's screen, click **Projects**, then **New project**.
+**16.** Now make Jarvis a home inside your AI. Each AI calls it something different:
 
-**17.** Name it **Jarvis**. Click **Create**.
+| Your AI | Click this | Then click |
+|---|---|---|
+| ChatGPT | **Projects** | **New project** |
+| Claude | **Projects** | **New project** |
+| Gemini | **Gems** (or **Skills**) | **New Gem** (or **New skill**) |
+| Copilot | **Notebooks** | **New notebook** |
 
-**18.** Click **Add files**. Click **Downloads**. Click **JARVIS_VAULT.md**. Click **Open**.
+> It's usually on the left side of the screen. If you can't find it, see **Stuck?** below.
 
-**19.** Click **Instructions**. Press **Ctrl+V** (on a Mac: **Command+V**). Click **Save**.
+**17.** Name it **Jarvis**. Click **Create** (or **Save**).
+
+**18.** Find the button to add a file. It may say **Add files**, **Knowledge**, or **Add reference**. Click it, click **Downloads**, click **JARVIS_VAULT.md**, and click **Open**.
+
+**19.** Find the box for **instructions**. Click in it. Press **Ctrl+V** (on a Mac: **Command+V**). Click **Save**.
 
 ---
 
 ### Say hi
 
-**20.** Inside the **Jarvis** project, start a **new chat**.
+**20.** Open your new **Jarvis** home and start a **new chat** inside it.
 
 **21.** Type **Jarvis Posture Check**. Press **Enter**.
 
@@ -87,13 +98,13 @@ You need two things: a computer, and an account with an AI you like to use (Chat
 
 ### Every time after that
 
-- Open the **Jarvis** project and chat there.
-- When you're done, type **Save to the vault**. Download the new **JARVIS_VAULT.md** he gives you, and put it in the project instead of the old one.
+- Open your **Jarvis** home (project, Gem, or notebook) and chat there.
+- When you're done, type **Save to the vault**. Download the new **JARVIS_VAULT.md** he gives you, and put it in his home instead of the old one.
 
 ---
 
 ### Stuck?
 
-- **No Projects button?** Every time you start a new chat, attach **JARVIS_VAULT.md** and type **Load the vault**.
-- **It won't take the file in step 7?** Use the **[detailed guide](GETTING_STARTED_DETAILED.md)**.
+- **Can't find a place to make Jarvis a home?** Some AIs and some plans don't have one. That's okay: every time you start a new chat, attach **JARVIS_VAULT.md** and type **Load the vault**.
+- **It won't take the file in step 7?** Some AIs can't open ZIP files. Use the copy-and-paste way in the **[detailed guide](GETTING_STARTED_DETAILED.md)**.
 - **Something else?** Ask whoever sent you this link.
