@@ -1,0 +1,24 @@
+{
+  "about": "Jarvis settings. Copy this file to the top of your vault. Jarvis reads it at the start of every session (Charter section 7). Edit it with control/Jarvis Control Center.bat, or by hand. Leave address empty and Jarvis will ask sir or ma'am at the first session.",
+  "updated": "",
+  "updated_by": "",
+  "address": "",
+  "alternate_address": "",
+  "dry_wit": 3,
+  "verbosity": 2,
+  "formality": 6,
+  "spoken_voice": false,
+  "briefing": true,
+  "save_reminder": true,
+  "backup_folder": "",
+  "defaults": {
+    "address": "",
+    "alternate_address": "",
+    "dry_wit": 3,
+    "verbosity": 2,
+    "formality": 6,
+    "spoken_voice": false,
+    "briefing": true,
+    "save_reminder": true
+  }
+}

@@ -1,0 +1,4 @@
+# Jarvis pronunciation list: written word = how the voice should say it
+# One per line. Lines starting with # are ignored. Restart the voice window after editing.
+# Example:
+# Siobhan = Shiv-awn
