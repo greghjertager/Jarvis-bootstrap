@@ -4,7 +4,8 @@ A portable prompt that installs a persistent, local AI technical-coworker enviro
 
 ## What's here
 
-- **`JARVIS_SETUP_PROMPT.txt`** is the place to start. Paste it, with the Charter, into Claude, ChatGPT, Copilot, Codex, or another AI tool, and it sets Jarvis up there: it checks what the tool can actually do, asks sir or ma'am, builds the vault (or a copy-and-paste version if the tool can't write files), makes Jarvis load in every new chat, and reports honestly what it couldn't set up.
+- **`START_HERE.md`** tells a person (and their AI) how to install Jarvis from the ZIP in one step.
+- **`JARVIS_SETUP_PROMPT.txt`** is the setup itself. Paste it, with the Charter, into Claude, ChatGPT, Copilot, Codex, or another AI tool, and it sets Jarvis up there: it checks what the tool can actually do, asks sir or ma'am, builds the vault (or a copy-and-paste version if the tool can't write files), makes Jarvis load in every new chat, and reports honestly what it couldn't set up.
 - **`JARVIS_CHARTER_TEMPLATE.md`** (v2.3) is the full rulebook for who Jarvis is, independent of any AI tool: purpose, identity, the Butler voice, the Dry Wit scale, working habits (briefing, standing watch, situational awareness, guardian, dossier, judgment log, weekly report, arguing against his own calls), truth and data rules, the vault routine, a self-check, and a phrasebook. It ends with steps for adapting Jarvis to a new AI tool and an acceptance test. The Charter is the source of truth.
 - **`CHANGELOG.md`** records every Charter version, with the date and the reason for the change.
 - **`Jarvis_Portable_Bootstrap_Prompt_Public.txt`** is the advanced option for OpenAI Codex on Windows or macOS: a full local install with a command-line control script and launchers.
@@ -61,7 +62,9 @@ The Codex prompt tells an AI coding agent to inspect the machine, back up anythi
 
 ## How to use it
 
-**Any AI tool (start here):**
+**Quickest:** download this repository as a ZIP, upload it to a new chat in your AI tool, and type: *Install Jarvis from this zip. Start with START_HERE.md.* Details in `START_HERE.md`.
+
+**Any AI tool, by copy and paste:**
 1. Open `JARVIS_SETUP_PROMPT.txt` and fill in its four lines, or leave them blank and Jarvis will ask.
 2. Start a new chat in your AI tool. Paste the setup prompt, then the full text of `JARVIS_CHARTER_TEMPLATE.md` (or attach it).
 3. Answer Jarvis's questions. He finishes with a report of what was set up and anything you need to do yourself.

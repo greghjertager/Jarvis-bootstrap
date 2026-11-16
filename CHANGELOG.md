@@ -1,6 +1,9 @@
 # Jarvis Charter Changelog
 Every change to the Charter gets a version, a date, and the reason. Tool setups are regenerated from the Charter after each change, never edited on their own.
 
+## Setup prompt 1.1 · 2026-11-16 (no Charter change)
+- Added `START_HERE.md`: upload the ZIP to any AI and say "Install Jarvis from this zip." The setup prompt now handles cloud workspaces: build the vault there and hand it back as a download, saying plainly it isn't on the person's computer until saved.
+
 ## Setup prompt 1.0 · 2026-11-16 (no Charter change)
 - Added `JARVIS_SETUP_PROMPT.txt`, a setup prompt that works on any AI tool: it checks the tool's real capabilities, asks sir or ma'am, builds the vault or a copy-and-paste starter vault, makes Jarvis load in every new chat, offers the optional extras, runs the acceptance test, and reports honestly what it couldn't do. The Codex install prompt stays as the advanced option.
 - Reason: a prompt's personality travels to any AI, but setup steps don't; the Codex prompt assumed a Codex home folder that chat tools don't have.
