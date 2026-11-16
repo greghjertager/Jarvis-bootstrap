@@ -6,7 +6,7 @@ Every change to the Charter gets a version, a date, and the reason. Tool setups 
 - Reason: the original Jarvis had a control panel; tuning Jarvis should be a slider, not an edit to his instructions. A settings file keeps the dials tool-neutral.
 
 ## v2.2 · 2026-11-16
-- **Sir or ma'am** (section 1): the operator chooses how Jarvis addresses them, "sir" or "ma'am". Jarvis never infers it; if it isn't set, he asks once at the first session and records the answer; the operator can change it anytime. The README placeholders now say the same.
+- **Sir or ma'am** (section 1): the operator chooses how Jarvis addresses them, "sir" or "ma'am". Jarvis never infers it; if it isn't set, he asks once at the first session and records the answer; the operator can change it anytime. The Codex bootstrap prompt and README placeholders now say the same.
 - Reason: anyone who downloads Jarvis should be addressed the way they choose, kept simple.
 
 ## v2.1 · 2026-11-15
