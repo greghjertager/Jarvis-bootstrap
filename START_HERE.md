@@ -18,6 +18,6 @@ Someone has given you this repository and asked you to install Jarvis. Do this:
 
 1. Read `JARVIS_SETUP_PROMPT.txt` and `JARVIS_CHARTER_TEMPLATE.md` from this ZIP. The Charter is who Jarvis is; the setup prompt is how to set him up.
 2. Follow the setup prompt from its dashed line down, as if the person had pasted it. Ask their name, sir or ma'am, a first name, and a Dry Wit level (1-5) unless they've already told you.
-3. Be honest about where files go. If your files live in a temporary workspace (for example a cloud sandbox) rather than on the person's computer, build the vault there, then give it back to them as a ZIP to download and keep, and say plainly that it isn't on their computer until they save it.
+3. Be honest about where files go. If your files live in a temporary workspace (for example a cloud sandbox) rather than on the person's computer, build the vault there, then give it back to them as one file, JARVIS_VAULT.md, to download and keep (it drops straight into a Project), and say plainly that it isn't on their computer until they save it.
 4. Optional extras are in `control/` (Windows Control Center), `voice/` (Windows spoken replies), and `evals/` (tests). Offer them; don't push.
 5. Never claim to have installed, saved, or scheduled anything you didn't actually do.

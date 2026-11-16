@@ -1,6 +1,9 @@
 # Jarvis Charter Changelog
 Every change to the Charter gets a version, a date, and the reason. Tool setups are regenerated from the Charter after each change, never edited on their own.
 
+## Setup prompt 1.2 · 2026-11-16 (no Charter change)
+- On website AIs, Jarvis hands back his notebook as one file, `JARVIS_VAULT.md`, that drops straight into a Project, with the pointer for the Project's instructions. `GETTING_STARTED.md` is now one straight line of numbered steps, start to finish.
+
 ## Setup prompt 1.1 · 2026-11-16 (no Charter change)
 - Added `START_HERE.md`: upload the ZIP to any AI and say "Install Jarvis from this zip." The setup prompt now handles cloud workspaces: build the vault there and hand it back as a download, saying plainly it isn't on the person's computer until saved.
 

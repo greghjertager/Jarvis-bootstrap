@@ -1,152 +1,130 @@
 # Getting started with Jarvis
 
-This is the easy guide. No experience needed. It takes about 15 minutes.
+Follow these steps in order, one at a time. Don't skip any. It takes about 15 minutes.
 
-## First, what is Jarvis?
+This guide is for **ChatGPT or Claude on a website**. If you use something else, the steps are almost the same.
 
-You know the AI you already chat with, like ChatGPT or Claude? Jarvis is a set of instructions that turns it into a helper with a steady personality and a notebook it can remember things in.
-
-You are not installing a program. You are handing your AI a rulebook and a notebook.
-
-- The **rulebook** says who Jarvis is and how he acts.
-- The **notebook** (we call it the **vault**) is where he writes things down so he remembers them next time.
+**What is Jarvis?** A rulebook and a notebook for the AI you already use. The rulebook tells it who Jarvis is. The notebook is where Jarvis remembers things about you. You don't install a program; you give your AI these two things.
 
 ---
 
-## Step 1: Get the Jarvis files
+## Part A: Get the Jarvis box
 
-1. Go to this website: **github.com/greghjertager/Jarvis-bootstrap**
-2. Look for the green button that says **Code**. Click it.
-3. Click **Download ZIP**.
+**Step 1.** Open your web browser (Chrome, Edge, Safari, or whatever you use).
 
-A file lands on your computer, usually in your **Downloads** folder. Its name starts with **Jarvis-bootstrap**.
+**Step 2.** Go to this website: **github.com/greghjertager/Jarvis-bootstrap**
 
-A ZIP file is like a box with all the Jarvis files packed inside. You don't need to open the box yet.
+**Step 3.** Find the green button that says **Code**. Click it.
 
----
+**Step 4.** A little menu opens. Click **Download ZIP**.
 
-## Step 2: Give the box to your AI
+**Step 5.** Wait a few seconds. A file downloads to your computer. It goes into your **Downloads** folder, and its name starts with **Jarvis-bootstrap**.
 
-1. Open ChatGPT, Claude, or whichever AI you use.
-2. Start a **new chat**.
-3. Next to the place where you type, find the little **paperclip** or **+** button. Click it.
-4. Pick the **Jarvis-bootstrap** file from your **Downloads** folder.
-5. Type this, exactly:
-
-   > **Install Jarvis from this zip. Start with START_HERE.md.**
-
-6. Press **Enter**.
-
-If your AI says it can't open the file, that's okay. Skip to **"The other way"** below.
+That file is a box with all the Jarvis parts inside. Leave it closed.
 
 ---
 
-## Step 3: Answer Jarvis's questions
+## Part B: Give the box to your AI
 
-Jarvis will say hello and ask you four things:
+**Step 6.** Go to ChatGPT (**chatgpt.com**) or Claude (**claude.ai**) and sign in.
 
-1. **Your name.**
-2. **Sir or ma'am?** This is how he'll talk to you.
-3. **A first name** he can use sometimes.
-4. **How funny should he be?** Pick a number from 1 to 5. 1 means serious. 5 means a joke in almost every answer. If you're not sure, say 3.
+**Step 7.** Start a **new chat**.
 
-Just answer in normal words, like you're texting a friend.
+**Step 8.** Look at the box where you type. Next to it is a small **paperclip** or **+** button. Click it.
 
----
+**Step 9.** Choose to upload a file from your computer. Open your **Downloads** folder and click the **Jarvis-bootstrap** file. Wait until it finishes uploading.
 
-## Step 4: Keep what Jarvis gives you
+**Step 10.** Click in the box where you type, and type this exactly:
 
-When he's done, Jarvis tells you what he made. You'll usually get one or both of these:
+> **Install Jarvis from this zip. Start with START_HERE.md.**
 
-- **A file to download.** This is his notebook (the vault). Click it, and save it somewhere easy to find, like your **Documents** folder. Don't lose it! It's how he remembers you.
-- **A short message to copy.** This goes into your AI's settings so Jarvis shows up by himself next time. Jarvis tells you where to put it. If that's confusing, use the **Project** trick below instead.
-
-**Why does he hand me a file?** When you use ChatGPT or Claude on a website, the AI works on its own computer, not yours. So Jarvis writes his notebook there and hands it to you to keep, like giving you your homework to take home.
+**Step 11.** Press **Enter**.
 
 ---
 
-## Step 5: Say hi to Jarvis
+## Part C: Answer Jarvis's four questions
 
-1. Start a **new chat**.
-2. Type: **Jarvis Posture Check**
+Jarvis says hello and asks you four things, one at a time. Type your answer and press **Enter** after each one.
 
-If it worked, he'll:
+**Step 12.** He asks your **name**. Type it.
 
-- call you sir or ma'am (whichever you picked);
-- tell you what he can and can't do;
-- sound calm and polite, like a butler, not like a help-desk robot.
+**Step 13.** He asks whether to call you **sir** or **ma'am**. Type one.
 
-If he sounds like a normal AI, see **"Uh oh"** below.
+**Step 14.** He asks for a **first name** he can use sometimes. Type it (usually just your first name).
 
----
-
-## The Project trick (best way to keep Jarvis around)
-
-ChatGPT and Claude have something called **Projects**. A Project is like a folder that remembers its papers. Every chat inside it can see them.
-
-1. Make a new **Project** and name it **Jarvis**.
-2. Put these files in it:
-   - **JARVIS_CHARTER_TEMPLATE.md** (the rulebook);
-   - **JARVIS_SETUP_PROMPT.txt** (the setup instructions);
-   - the **notebook file** Jarvis gave you.
-3. If the Project has a box for **instructions**, paste in the short message Jarvis gave you.
-4. Always talk to Jarvis **inside the Project**.
-
-Now he remembers who he is every time.
+**Step 15.** He asks **how funny** he should be, from 1 to 5. 1 is serious. 5 is a joke in almost every answer. If you're not sure, type **3**.
 
 ---
 
-## The other way (if your AI won't take the ZIP)
+## Part D: Keep his notebook
 
-1. Open the ZIP box:
-   - **Windows:** right-click the file, click **Extract All**, then click **Extract**.
-   - **Mac:** double-click the file.
+**Step 16.** Jarvis gives you a file called **JARVIS_VAULT.md**. That's his notebook. Click it to download it. It goes into your **Downloads** folder.
 
-   A folder full of Jarvis files appears.
-2. Open **JARVIS_SETUP_PROMPT.txt**.
-3. Copy everything **under the dashed line** (`-----`).
-4. Paste it into a new chat. **Don't press Enter yet.**
-5. Open **JARVIS_CHARTER_TEMPLATE.md** and copy all of it. (If your computer asks which app to use, pick Notepad on Windows or TextEdit on Mac.)
-6. Paste it into the same chat, under the first part.
-7. Now press **Enter**, and go back to **Step 3**.
+**Step 17.** Jarvis also gives you a **short message** to copy. Find it in his answer and copy it: select it with your mouse, then press **Ctrl+C** (Windows) or **Command+C** (Mac). Keep this chat open. You'll paste it in a minute.
 
 ---
 
-## Talking to Jarvis every day
+## Part E: Give Jarvis a home (a Project)
 
-Talk to him like a helpful coworker. A few handy phrases:
+A Project is a folder inside your AI that remembers its files. If Jarvis lives in one, he remembers who he is every single time.
 
-- **"Brief me"**: he tells you what's going on.
-- **"Save to the vault"**: he writes down what you did today. If he gives you a new notebook file, keep the new one and throw away the old one (or swap it in your Project).
-- **"Dry wit to 2"**: makes him less funny. Any number from 1 to 5 works.
-- **"Call me ma'am"** or **"Call me sir"**: changes what he calls you.
+**Step 18.** In the side menu of ChatGPT or Claude, find **Projects** and click **New project** (or **Create project**).
 
----
+**Step 19.** Name it **Jarvis**, then create it.
 
-## Uh oh (fixing problems)
+**Step 20.** Inside the Project, find where to **add files** and add **JARVIS_VAULT.md** from your **Downloads** folder.
 
-- **"It won't take my file."** Use **the other way**, above.
-- **"He's acting like a normal AI."** Type: *Read START_HERE.md and follow it.*
-- **"He forgot me in a new chat."** He needs his notebook each time. Use the **Project trick**, or upload the notebook file at the start of the chat and say *Load the vault.*
-- **"He says he saved something, but I can't find it."** Ask him: *Where exactly is that file?* Jarvis is built to tell the truth. If he can't show you, it wasn't saved.
+**Step 21.** Inside the Project, find the place for **instructions**. Click it, paste the short message from Step 17 (**Ctrl+V** on Windows, **Command+V** on Mac), and save.
 
 ---
 
-## Extra toys (Windows computers only)
+## Part F: Meet Jarvis
 
-- **Control Center:** a little window with sliders to make Jarvis funnier, chattier, or fancier. It only works when Jarvis's notebook is a real folder on your computer, which happens with tools like Codex or Claude Code. Put the **control** folder inside the notebook folder, then double-click **Jarvis Control Center.bat**.
-- **Talking Jarvis:** the **voice** folder lets him read his answers out loud. Instructions are inside it.
+**Step 22.** Inside the **Jarvis** Project, start a **new chat**.
 
-If Windows pops up a blue box saying **"Windows protected your PC"**, it's just being careful with downloaded files. If you got the files from the website above, click **More info**, then **Run anyway**.
+**Step 23.** Type **Jarvis Posture Check** and press **Enter**.
+
+**Step 24.** Check his answer. It worked if he:
+- calls you **sir** or **ma'am** (the one you picked);
+- tells you what he can and can't do;
+- sounds calm and polite, like a butler, not like a help-desk robot.
+
+Done! Jarvis is yours.
+
+---
+
+## Every time you use Jarvis
+
+- Always chat **inside the Jarvis Project**.
+- Before you finish, type **Save to the vault**. Jarvis gives you a new **JARVIS_VAULT.md**. Download it, then in the Project, remove the old one and add the new one. That's how he remembers today next time.
+- To make him less funny or more funny, type **Dry wit to 2** (any number from 1 to 5).
+- To change what he calls you, type **Call me ma'am** or **Call me sir**.
+
+---
+
+## If something goes wrong
+
+- **In Step 11, your AI says it can't open the file.**
+  1. Go to your **Downloads** folder.
+  2. Open the box: on **Windows**, right-click it, click **Extract All**, then **Extract**. On a **Mac**, double-click it.
+  3. Open the new folder, then open **JARVIS_SETUP_PROMPT.txt**.
+  4. Copy everything under the dashed line (`-----`) and paste it into a new chat. Don't press Enter yet.
+  5. Open **JARVIS_CHARTER_TEMPLATE.md** (pick Notepad on Windows or TextEdit on Mac if asked), copy all of it, and paste it under the first part.
+  6. Press **Enter**, then go back to **Step 12**.
+- **You can't find Projects.** Some plans don't have them. Instead, at the start of every new chat, attach **JARVIS_VAULT.md** and type **Load the vault**.
+- **He's acting like a normal AI.** Type: *Read the JARVIS_VAULT.md file and follow it.*
+- **He says he saved something, but there's no file.** Ask: *Where exactly is that file?* Jarvis is built to tell the truth. If he can't show you the file, it wasn't saved.
 
 ---
 
 ## Three important rules
 
-1. **Never** put passwords, bank info, or ID numbers in Jarvis's notebook.
+1. **Never** put passwords, bank information, or ID numbers in Jarvis's notebook.
 2. **Don't** paste private work stuff into a personal AI. Follow your job's rules.
-3. Jarvis's notebook is **not locked** (not encrypted) unless you lock it yourself, so only put things in it that you're okay keeping in a regular file.
+3. Jarvis's notebook is a regular file. It isn't locked, so only put in things you're okay keeping in a regular file.
 
 ---
+
+*Extra, for Windows and tools that work right on your computer (like Codex or Claude Code): the **control** folder has a Control Center with sliders for Jarvis's humor, chattiness, and formality, and the **voice** folder lets him talk out loud. Each folder has its own instructions.*
 
 Stuck? Open an issue on the GitHub page.
