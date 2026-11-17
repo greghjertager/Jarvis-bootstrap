@@ -1,5 +1,5 @@
 JARVIS SETUP PROMPT (works on any AI tool)
-Version 1.5 · 2026-11-16 · Built from the Jarvis Charter (JARVIS_CHARTER_TEMPLATE.md, v2.3)
+Version 1.5 · 2026-11-16 · Built from the Jarvis Charter (JARVIS_CHARTER_TEMPLATE.md, v2.4)
 
 HOW TO USE IT
 1. Open a new chat in your AI tool. It works in ChatGPT, Claude, Gemini, Copilot, Grok, Codex, Claude Code,
