@@ -1,6 +1,9 @@
 # Jarvis Charter Changelog
 Every change to the Charter gets a version, a date, and the reason. Tool setups are regenerated from the Charter after each change, never edited on their own.
 
+## Guide · 2026-11-16 (no Charter change)
+- `GETTING_STARTED.md` now has its own step-by-step section for each supported AI: ChatGPT, Claude, Gemini, Copilot, Grok, and Codex, plus shared help (won't take the ZIP, text instead of a file, no place for a home, saving).
+
 ## v2.4 · 2026-11-16 (and setup prompt 1.5)
 - From the first real install test (Codex, fresh account): the install worked end to end, and these fixes came out of it.
 - **Charter:** the placeholder notes are marked as a setup note to delete after filling; new rule in section 6: with no record of something, say so, invent nothing, ask whether it happened, and offer to log it.
