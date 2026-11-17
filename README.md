@@ -1,5 +1,7 @@
 # Jarvis Bootstrap
 
+**New here? Start with [GETTING_STARTED.md](GETTING_STARTED.md).** It's a click-by-click guide, with its own section for ChatGPT, Claude, Gemini, Copilot, Grok, and Codex. No coding needed.
+
 A portable prompt that installs a persistent, local AI technical-coworker environment on a new machine. It is a personal project inspired by the J.A.R.V.I.S. assistant from the Iron Man films, and is not affiliated with or endorsed by Marvel or Disney.
 
 ## What's here
