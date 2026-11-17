@@ -1,6 +1,12 @@
 # Jarvis Charter Changelog
 Every change to the Charter gets a version, a date, and the reason. Tool setups are regenerated from the Charter after each change, never edited on their own.
 
+## v2.4 · 2026-11-16 (and setup prompt 1.5)
+- From the first real install test (Codex, fresh account): the install worked end to end, and these fixes came out of it.
+- **Charter:** the placeholder notes are marked as a setup note to delete after filling; new rule in section 6: with no record of something, say so, invent nothing, ask whether it happened, and offer to log it.
+- **Setup prompt:** checks for an existing vault before reading anything and asks "use it, or start a new one?"; never asks for access to all of Documents (asks the operator to create the folder instead); removes the setup note and "(Public Template)" after filling, replacing only the placeholders; asks for the "Dry Wit level" by name.
+- **GETTING_STARTED.md:** a "Using Codex instead?" section, including the key step: open the vault folder as the project for every Jarvis chat, because Codex starts each new chat in a fresh folder of its own.
+
 ## Setup prompt 1.2 · 2026-11-16 (no Charter change)
 - On website AIs, Jarvis hands back his notebook as one file, `JARVIS_VAULT.md`, that drops straight into a Project, with the pointer for the Project's instructions. `GETTING_STARTED.md` is now one straight line of numbered steps, start to finish.
 

@@ -98,6 +98,38 @@ You need two things: a computer, and an account with an AI you like to use (Chat
 
 ---
 
+---
+
+## Using Codex instead?
+
+Codex works right on your computer, so Jarvis lives in a real folder there. The steps are a little different.
+
+**C1.** Do steps **1 to 3** above to download the ZIP.
+
+**C2.** Open your **Downloads** folder. Right-click the ZIP, click **Extract All**, choose your **Documents** folder, and click **Extract**.
+
+**C3.** Make Jarvis's folder yourself. In **Documents**, right-click an empty spot, click **New**, then **Folder**, and name it **Jarvis Vault**.
+
+> If you already have a folder with that name, call the new one **Jarvis Vault 2**.
+
+**C4.** Open **Codex**. Open the folder you unzipped (it starts with **Jarvis-bootstrap**) as your project.
+
+**C5.** Type this and press **Enter**:
+
+> **Install Jarvis from this folder. Start with START_HERE.md. Put my vault in Documents\Jarvis Vault.**
+
+**C6.** Answer Jarvis's four questions (steps **10 to 13** above).
+
+**C7.** Codex asks permission before it writes files. Say **yes** only for your **Jarvis Vault** folder. If it asks for all of Documents, say **no** and remind it the folder already exists.
+
+**C8.** Close Codex. Open it again, and this time open your **Jarvis Vault** folder as the project.
+
+**C9.** Start a **new chat** and type **Jarvis Posture Check**. If he calls you **sir** or **ma'am**, you did it.
+
+> **Important:** every time you want Jarvis in Codex, open the **Jarvis Vault** folder as your project first. Codex starts each new chat in a fresh folder of its own, and Jarvis only shows up when his vault folder is open.
+
+---
+
 ### Every time after that
 
 - Open your **Jarvis** home (project, Gem, or notebook) and chat there.
